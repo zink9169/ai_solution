@@ -1,0 +1,9 @@
+{
+  "name": "ai_solution",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "postinstall": "npm --prefix backend install && npm --prefix solution-website install",
+    "build": "npm --prefix solution-website run build"
+  }
+}
